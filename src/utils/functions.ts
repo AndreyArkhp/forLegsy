@@ -16,6 +16,5 @@ export function getGraphData() {
 
     graphData.push(res);
   }
-  console.log(graphData);
   return graphData;
 }

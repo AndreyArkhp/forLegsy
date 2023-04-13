@@ -68,7 +68,7 @@ const Table: FC = () => {
   }, [dataRow, isSuccess]);
 
   const onFirstDataRendered = useCallback((params: any) => {
-    gridRef.current!.api.forEachNode((node: any) => node.setSelected(!!node.data));
+    gridRef.current!.api.forEachNode((node: any) => node.setSelected(!node.data));
   }, []);
 
   const sideBar = useMemo<any>(() => {
@@ -96,7 +96,7 @@ const Table: FC = () => {
         },
       ],
       position: 'right',
-      defaultToolPanel: 'columns',
+      defaultToolPanel: false,
     };
   }, []);
 
