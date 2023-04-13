@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/forLegsy/static/css/main.8e8707b5.css",
+    "main.js": "/forLegsy/static/js/main.160155f0.js",
+    "index.html": "/forLegsy/index.html",
+    "main.8e8707b5.css.map": "/forLegsy/static/css/main.8e8707b5.css.map",
+    "main.160155f0.js.map": "/forLegsy/static/js/main.160155f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e8707b5.css",
+    "static/js/main.160155f0.js"
+  ]
+}
