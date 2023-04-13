@@ -1,0 +1,13 @@
+.image{
+  width: 30px;
+  display: inline-block;
+  padding: 5px;
+  object-fit: contain;
+}
+
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
