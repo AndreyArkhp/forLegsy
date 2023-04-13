@@ -18,3 +18,13 @@ export interface ICard {
     }
   ];
 }
+
+export interface IFotoUrls {
+  [id: string]: string;
+}
+
+export interface IGraph {
+  date: number;
+  amount: number;
+}
+
