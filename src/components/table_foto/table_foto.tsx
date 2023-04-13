@@ -1,4 +1,4 @@
-import { FC, useMemo, useState } from 'react';
+import { FC } from 'react';
 import { cardsApi } from '../../api/supplierCardsService';
 import styles from './table_foto.module.css';
 

@@ -5,7 +5,7 @@ import { IGraph } from '../../types';
 import styles from './simple-chart.module.css';
 
 const Chart: FC<{ data: IGraph[] }> = ({ data }) => {
-  const [options, setOptions] = useState<any>({
+  const [options] = useState<any>({
     autoSize: true,
     data: getGraphData(),
     series: [

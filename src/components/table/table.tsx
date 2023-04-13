@@ -48,7 +48,7 @@ const Table: FC = () => {
       },
       { field: 'график', minWidth: 250, cellRenderer: (data: any) => <Chart data={graphData} /> },
     ],
-    []
+    [graphData]
   );
 
   const defaultColDef = useMemo(
