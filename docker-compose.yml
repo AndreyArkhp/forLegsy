@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+    table:
+     container_name: table
+     restart: on-failure
+     build: ./
+     ports:
+       - '80:3000'
